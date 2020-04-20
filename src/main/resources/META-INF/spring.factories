@@ -1,0 +1,11 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.walkwind.boot.listener.HelloApplicationContextInitializer
+
+org.springframework.boot.ApplicationRunner=\
+com.walkwind.boot.listener.HelloApplicationRunner
+
+org.springframework.boot.CommandLineRunner=\
+com.walkwind.boot.listener.HelloCommandLineRunner
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.walkwind.boot.listener.HelloSpringApplicationRunListener
